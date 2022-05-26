@@ -26,11 +26,11 @@ Los usuarios deben ser capaces de:
 
 - Escritorio
 
-![Son tres cards que explican los diferentes aspectos de los vehiculos](./desktop.png)
+![Es una card que muestra algunos datos de tu perfil incluyendo una imagen](./escritorio.png)
 
 - Móvil
 
-![Son tres cards que explican los diferentes aspectos de los vehiculos](./mobile.png)
+![Es una card que muestra algunos datos de tu perfil incluyendo una imagen](./mobile.png)
 
 ### Enlaces
 
