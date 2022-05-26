@@ -9,7 +9,7 @@ Esta es una solución al [Desafío del componente profile card en Frontend Mento
   - [Capturas de pantalla](#capturas-de-pantalla)
   - [Enlaces](#enlaces)
 - [Mi proceso](#mi-proceso)
-  - [Construido con](#construción)
+  - [Construido](#construción)
   - [Recursos útiles](#recursos-útiles)
 - [Autor](#autor)
 
