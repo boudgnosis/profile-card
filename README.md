@@ -30,7 +30,7 @@ Los usuarios deben ser capaces de:
 
 - Móvil
 
-![Es una card que muestra algunos datos de tu perfil incluyendo una imagen](./movile.png)
+![Es una card que muestra algunos datos de tu perfil incluyendo una imagen](./movil.png)
 
 ### Enlaces
 
