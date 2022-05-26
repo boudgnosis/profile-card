@@ -1,0 +1,132 @@
+:root {
+	/* PRIMARY */
+	--dark-cyan: hsl(185, 75%, 39%);
+	--very-dark-desaturated-blue: hsl(229, 23%, 23%);
+	--dark-grayish-blue: hsl(227, 10%, 46%);
+	/* NEUTRAL */
+	--dark-gray: hsl(0, 0%, 59%);
+	--white: #ffff;
+	/* FONT */
+	--kumbh-sans: 'Kumbh Sans', sans-serif;;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 650px;
+	background-color: var(--dark-cyan);
+	font-family: var(--kumbh-sans);
+}
+
+img {
+	display: block;
+}
+
+.bg__pattern-top {
+	background-image: url(../assets/img/bg-pattern-top.svg);
+	height: 300px;
+	width: 700px;
+	rotate: 180deg;
+	position: absolute;
+	left: 0rem;
+	top: 0;
+}
+
+.bg__pattern-bottom {
+	background-image: url(../assets/img/bg-pattern-bottom.svg);
+	height: 300px;
+	width: 700px;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+.card__container {
+	width: 350px;
+	background-color: var(--white);
+	border-radius: 12px;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	-ms-border-radius: 12px;
+	-o-border-radius: 12px;
+	box-shadow: 2px 2px 30px 10px rgba(0,0,0, .2);
+	z-index: 5;
+}
+
+.color__gray {
+	color: var(--dark-gray)
+
+}
+
+.card__container .header img {
+	border-radius: 12px 12px 0 0;
+	-webkit-border-radius: 12px 12px 0 0;
+	-moz-border-radius: 12px 12px 0 0;
+	-ms-border-radius: 12px 12px 0 0;
+	-o-border-radius: 12px 12px 0 0;
+}
+
+.information .information__avatar {
+	display: flex;
+	justify-content:center;
+	align-items: center;
+}
+
+.information .information__avatar img {
+	position: relative;
+	top: -3rem;
+	border: 4px solid var(--white);
+	border-radius: 50px;
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	-ms-border-radius: 50px;
+	-o-border-radius: 50px;
+}
+
+.information .title {
+	font-size: 1.2em;
+	font-weight: 700;
+	color: var(--very-dark-desaturated-blue);
+	text-align: center;
+	margin: -2rem 0 0 0;
+}
+
+.information .title__country {
+	text-align: center;
+	padding-bottom: 10px;
+	font-weight: 400;
+}
+
+.card__container .stats {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-direction: row;
+	width: 100%;
+	border-top: 1px solid var(--dark-gray);
+}
+
+.card__container .stats p {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	font-size: 1em;
+	font-weight: 700;
+	color: var(--very-dark-desaturated-blue);
+}
+
+.card__container .stats p span{
+	padding-top: 5px;
+	font-size: .9em;
+	font-weight: 400;
+}
+
+@media screen and (min-width: 375px) and (max-width: 768px) {
+	.bg__pattern-top,	
+	.bg__pattern-bottom  {
+		height: 250px;
+		width: 300px;
+	}
+	
+}
